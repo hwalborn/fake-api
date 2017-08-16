@@ -6,12 +6,12 @@
 # server "example.com", user: "deploy", roles: %w{app db web}, my_property: :my_value
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
+server '34.226.197.35', user: 'deploy', roles: %w{web app db}
 
 
 
 # role-based syntax
 # ==================
-
 # Defines a role with one or multiple servers. The primary server in each
 # group is considered to be the first unless any hosts have the primary
 # property set. Specify the username and a domain or IP for the server.
